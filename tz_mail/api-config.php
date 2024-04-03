@@ -1,5 +1,5 @@
 <?php
-$export_mail_type = 'tz_aweber';
+$export_mail_type = 'tz_mailchimp';
 
 /* Google Recaptcha Secret Key */
 $g_secret_key = ''; 
@@ -45,7 +45,7 @@ Get Mailchimp API key from http://admin.mailchimp.com/account/api
 Get Mailchimp List ID from http://admin.mailchimp.com/lists/
 */
 
-define('mailchimp_api_key', ''); 
+define('mailchimp_api_key', 'mailchimp'); 
 define('mailchimp_api_listid', '');
 
 /* MailerLite API KEY &amp; GROUP ID
